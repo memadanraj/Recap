@@ -1,0 +1,43 @@
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'recordings/chrome_recording.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:08:01.47, start: 0.000000, bitrate: 214 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1078, 78 kb/s, 23.62 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'recordings/chrome_recording.mp3':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    TSSE            : Lavf61.7.100
+  Stream #0:0(und): Audio: mp3, 44100 Hz, stereo, fltp (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libmp3lame
+size=     256KiB time=00:00:19.21 bitrate= 109.2kbits/s speed=36.7x    size=     512KiB time=00:00:40.58 bitrate= 103.4kbits/s speed=39.5x    size=    1024KiB time=00:01:08.45 bitrate= 122.5kbits/s speed=44.2x    size=    1536KiB time=00:01:35.75 bitrate= 131.4kbits/s speed=46.3x    size=    1792KiB time=00:02:03.72 bitrate= 118.6kbits/s speed=47.7x    size=    2304KiB time=00:02:30.53 bitrate= 125.4kbits/s speed=48.4x    size=    2560KiB time=00:02:58.22 bitrate= 117.7kbits/s speed=49.1x    size=    3072KiB time=00:03:24.89 bitrate= 122.8kbits/s speed=49.4x    size=    3328KiB time=00:03:51.24 bitrate= 117.9kbits/s speed=49.7x    size=    3840KiB time=00:04:15.33 bitrate= 123.2kbits/s speed=49.3x    size=    4096KiB time=00:04:33.67 bitrate= 122.6kbits/s speed=48.2x    size=    4352KiB time=00:04:55.32 bitrate= 120.7kbits/s speed=47.6x    size=    4864KiB time=00:05:21.92 bitrate= 123.8kbits/s speed=47.9x    size=    5120KiB time=00:05:46.34 bitrate= 121.1kbits/s speed=47.9x    size=    5632KiB time=00:06:12.83 bitrate= 123.7kbits/s speed=48.1x    size=    5888KiB time=00:06:39.58 bitrate= 120.7kbits/s speed=48.4x    size=    6144KiB time=00:06:55.09 bitrate= 121.3kbits/s speed=46.8x    size=    6656KiB time=00:07:21.61 bitrate= 123.5kbits/s speed=  47x    size=    6912KiB time=00:07:42.32 bitrate= 122.5kbits/s speed=46.6x    size=    7424KiB time=00:07:59.30 bitrate= 126.9kbits/s speed=  46x    [out#0/mp3 @ 000001ba252dfb00] video:0KiB audio:7465KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.004644%
+size=    7466KiB time=00:08:00.52 bitrate= 127.3kbits/s speed=45.9x    
